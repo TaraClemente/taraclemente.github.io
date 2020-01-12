@@ -13,7 +13,8 @@
   font-size: 80%;
   padding: 0.75rem;
   color: #64a19d;
-  border: 1px solid #64a19d;
+  /*border: 1px solid #64a19d;*/
+    border: 1px solid #15C4CC;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -72,15 +73,18 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    /*color: #64a19d;*/
+      color: #15C4CC;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #15C4CC;
+      color: #15C4CC;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    /*border-bottom: 0.25rem solid #64a19d;*/
+      border-bottom: 0.25rem solid #15C4CC;
   }
 }
 
@@ -146,7 +150,9 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+ /* background-color: #64a19d;*/
+    background-color: #15C4CC;
+    
 }
 
 .btn-primary:hover {
@@ -197,7 +203,8 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    /*border-color: #64a19d;*/
+      border-color: #15C4CC;
     border-width: .25rem;
     width: 30%;
   }
@@ -229,7 +236,8 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+ /* border-bottom: 0.25rem solid #64a19d;*/
+    border-bottom: 0.25rem solid #15C4CC;
 }
 
 .contact-section .card h4 {
@@ -240,7 +248,8 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  /*border-color: #64a19d;*/
+    border-color: #15C4CC;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -273,7 +282,9 @@ body {
 }
 
 a {
-  color: #64a19d;
+  /*color: #64a19d;*/
+    color: #15C4CC;
+    
 }
 
 a:focus, a:hover {
@@ -287,10 +298,13 @@ a:focus, a:hover {
 
 .bg-primary {
   background-color: #64a19d !important;
+    background-color: #15C4CC !important;
+    
 }
 
 .text-primary {
-  color: #64a19d !important;
+  /*color: #64a19d !important;*/
+    color: #15C4CC !important;
 }
 
 footer {
