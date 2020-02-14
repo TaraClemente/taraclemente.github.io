@@ -159,20 +159,21 @@
  /* background-color: #64a19d;*/
    /* background-color: #15C4CC;*/
     background-color: #2d7788;
+    /*padding: 10px 24px;*/
         
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #42a8c0;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #42a8c0;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #42a8c0 !important;
 }
 
 .about-section {
@@ -211,7 +212,9 @@
   }
   .projects-section .project-text hr {
     /*border-color: #64a19d;*/
-      border-color: #15C4CC;
+      /*border-color: #15C4CC;*/
+      /*line under read more*/
+      border-color:#42a8c0;
     border-width: .25rem;
     width: 30%;
   }
@@ -290,7 +293,8 @@ body {
 
 a {
   /*color: #64a19d;*/
-    color: #15C4CC;
+    /*hyperlink color*/
+    color: #42a8cd;
     
 }
 
