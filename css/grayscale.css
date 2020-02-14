@@ -153,6 +153,7 @@
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
+    border-spacing: 10px;
 }
 
 .btn-primary {
