@@ -6,7 +6,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: lightgray;
 }
 
 #mainNav .navbar-toggler {
@@ -28,14 +28,14 @@
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: fade(lightcoral 80%);
   outline: none;
   background-color: transparent;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
+  background-color: lightgrey;
 }
 
 @media (min-width: 992px) {
@@ -44,6 +44,7 @@
     padding-bottom: 0;
     border-bottom: none;
     background-color: transparent;
+      
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -62,7 +63,7 @@
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: lightgray;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
