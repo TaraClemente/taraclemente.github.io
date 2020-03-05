@@ -14,7 +14,7 @@
   padding: 0.75rem;
   color: #64a19d;
   /*border: 1px solid #64a19d;*/
-    border: 1px solid #15C4CC;
+    border: 1px solid #42a8c0;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -75,11 +75,11 @@
   }
   #mainNav.navbar-shrink .nav-link:hover {
     /*color: #64a19d;*/
-      /*color: #15C4CC;*/
+      /*color: #15C4CC; very light turquoise color*/
       color: #42A8C0;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #42A8C0;
   }
   #mainNav.navbar-shrink .nav-link.active {
     /*color: #15C4CC;
@@ -250,7 +250,7 @@
 .contact-section .card {
   border: 0;
  /* border-bottom: 0.25rem solid #64a19d;*/
-    border-bottom: 0.25rem solid #15C4CC;
+    border-bottom: 0.25rem solid #42a8cd;
 }
 
 .contact-section .card h4 {
@@ -262,7 +262,7 @@
 
 .contact-section .card hr {
   /*border-color: #64a19d;*/
-    border-color: #15C4CC;
+    border-color: #42a8c0;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -311,14 +311,16 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
-    background-color: #15C4CC !important;
+  /*background-color: #64a19d !important;
+    background-color: #15C4CC !important;*/
+    background-color: #42a8c0 !important;
+    
     
 }
 
 .text-primary {
   /*color: #64a19d !important;*/
-    color: #15C4CC !important;
+    color: #42a8c0 !important;
 }
 
 footer {
